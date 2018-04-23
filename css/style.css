@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, 'Microsoft Yahei UI', "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+.navbar-brand{
+    font-size: 26px;
+}
+.navbar-brand span{
+    font-size: 18px;
+}
+#myCarousel{
+    margin: 32px 0 0 0;
+}
+.carousel-inner .item img{
+    margin: 0 auto;
+}
+.carousel-control{
+    font-size: 100px;
+}
+.tab1 {
+    margin: 30px 0;
+    color: #666;
+}
+.tab1 .col{
+    padding: 10px;
+}
+.tab1-h2{
+    font-size: 20px;
+    color: #0059B2;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.tab1-p{
+    font-size: 15px;
+    color: #999;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 20px 0 40px 0;
+}
+.tab1 .media-heading{
+    margin: 5px 0 20px 0;
+}
+.roles-blockquote,.cinecism-container,.recomm-container{
+    margin-top: 50px;
+}
+.roles-content{
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.roles-content h4{
+    font-size: 14px;
+}
+.roles-content p{
+    line-height: 2;
+    font-size: 12px;
+}
+.cinecism-container .content h3{
+    margin-bottom: 10px;
+    padding: 20px 0;
+    font-size: 14px;
+}
+.cinecism-container .content p{
+    margin-bottom: 30px;
+    line-height: 2;
+    border-bottom: 1px solid #eee;
+    text-indent: 30px;
+    font-size: 11px;
+}
+.recomm-container h3{
+    font-size: 14px;
+}
+.recomm-container img{
+    padding-top: 15px;
+}
+.recomm-container p{
+    text-align: center;
+}
+#footer{
+    padding: 7px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #000;
+    border-top: 1px solid #eee;
+}
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+    .tab1-h2{
+        font-size: 26px;
+    }
+    .tab1-p{
+        font-size: 16px;
+    }
+    .roles-content h4{
+        font-size: 16px;
+    }
+    .cinecism-container .content h3{
+        font-size: 18px;
+    }
+    .cinecism-container .content p{
+        font-size: 12px;
+    }
+    .recomm-container h3{
+        font-size: 18px;
+    }
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+    .tab1-h2{
+        font-size: 28px;
+    }
+    .tab1-p{
+        font-size: 17px;
+    }
+    .roles-content h4{
+        font-size: 18px;
+    }
+    .cinecism-container .content h3{
+        font-size: 20px;
+    }
+    .cinecism-container .content p{
+        font-size: 12px;
+    }
+    .recomm-container h3{
+        font-size: 20px;
+    }
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+    .tab1-h2{
+        font-size: 30px;
+    }
+    .tab1-p{
+        font-size: 18px;
+    }
+    .roles-content h4{
+        font-size: 20px;
+    }
+    .roles-content p{
+        font-size: 14px;
+    }
+    .cinecism-container .content h3{
+        font-size: 24px;
+    }
+    .cinecism-container .content p{
+        font-size: 14px;
+    }
+    .recomm-container h3{
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
